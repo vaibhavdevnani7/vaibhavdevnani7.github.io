@@ -1,3 +1,35 @@
-#container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;}
+#main{
+    height: 100%;
+    max-width: 2000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+    margin: 0px;
+    height: 100%;
+    background-color: burlywood;
+}
+html{
+    height: 100%;
+}
+.column {
+    float: left;
+}
+  
+.left {
+    width: 20%;
+}
+  
+.right {
+    width: 80%;
+}
+
+#sidebar{
+    height: 100%;
+    background-color: blue;
+
+}
+#content{
+    height: 1500px;
+    background-color: brown;
+    overflow-y: scroll;
