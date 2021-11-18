@@ -1,35 +1,39 @@
-#main{
-    height: 100%;
+*,html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    background-color: burlywood;
     max-width: 2000px;
     margin-left: auto;
     margin-right: auto;
 }
-body{
-    margin: 0px;
+.sidebar{
+    margin: 0;
+    padding: 0;
+    width: 250px;
+    background-color: #f1f1f1;
+    position: fixed;
     height: 100%;
-    background-color: burlywood;
 }
-html{
-    height: 100%;
-}
-.column {
-    float: left;
-}
-  
-.left {
-    width: 20%;
-}
-  
-.right {
-    width: 80%;
-}
-
-#sidebar{
-    height: 100%;
-    background-color: blue;
-
-}
-#content{
+.content{
+    margin: 0;
+    background-color: chartreuse;
+    margin-left: 250px;
+    padding: 1px 16px;
     height: 1500px;
-    background-color: brown;
-    overflow-y: scroll;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: static;
+  }
+  .sidebar a {float: left;}
+  .content{
+      margin: 0;
+  }
+}
