@@ -1,4 +1,4 @@
-*,html, body {
+*, html, body {
     margin: 0;
     padding: 0;
 }
@@ -62,10 +62,57 @@ img{
     margin-right: auto;
 }
 
-.sidebar a{
-    display: block;
+.links{
+    color: black;
+    text-decoration: none;
+    padding: 2px;
+}
+.links:hover:not(.active){
+    background-color: yellow;
+    text-decoration: none;
+}
+.linksdiv{
+    margin-left: 25px;
+    text-align: left;
+    margin-bottom: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:550;
+}
+#mainlink{
+    margin: 0;
+    padding: 0;
+    color: black;
+    text-decoration: none;
 }
 
+#mainlinkdiv{
+    margin: 0;
+    padding: 0;
+    margin-left: 25px;
+    width:  100px;
+    text-align: left;
+    margin-bottom: 12px;
+    margin-top: 25px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    font-size: 130%;
+}
+#mainlinkdiv2{
+    margin: 0;
+    padding: 0;
+    margin-left: 25px;
+    width:  100px;
+    text-align: left;
+    margin-bottom: 25px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    font-size: 130%;
+}
+.mainlinkmain{
+    display: none;
+}
 
 @media screen and (max-width: 720px) {
   .sidebar {
@@ -73,7 +120,24 @@ img{
     height: 80px;
     position: static;
   }
-  .sidebar a {float: left;}
+  #mainlinkdiv{
+    display: none;
+    
+  }
+  #mainlinkdiv2{
+    display: none;
+    
+  }
+  .mainlinkmain{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+  .linksdiv{
+      float: left;    
+  }
+
   .main{
       margin: 0;
   }
