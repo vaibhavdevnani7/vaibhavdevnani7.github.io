@@ -5,7 +5,7 @@
 
 body{
     margin: 0;
-    background-color: burlywood;
+    background-color: rgb(219, 255, 182);
     max-width: 2000px;
     margin-left: auto;
     margin-right: auto;
@@ -23,7 +23,7 @@ body{
 }
 .main{
     margin: 0;
-    background-color: chartreuse;
+    background-color: rgb(219, 255, 182);
     margin-left: 275px;
     padding: 50px 0px;
     
@@ -35,23 +35,50 @@ body{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 40px;
+    box-shadow: -3px 3px 15px -1px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.postobject a{
+    text-decoration: none;
+    color: black;
+
 }
 .object{
     background-color: cornsilk;
     overflow: hidden;
     margin: 0%;
     padding: 0%;
-    height: 100%;
+    height: 100%;  
 }
+.objectcontentl{
+    float: left;
+    height: 100%;
+    width: 60%;
+    font-size: 100%;
+    padding: 8px;    
+}
+.objectcontentl p{
+    font-size: 130%;
+}
+.objectcontentr{
+    float: right;
+    height: 100%;
+    width: 60%;
+    font-size: 110%;
+    padding: 8px;   
+}
+.objectcontentr p{
+    font-size: 130%;
+}
+
 .objectimgl{
     height: 100%;
     width: 35%;
-    float: left;
 }
 .objectimgr{
     height: 100%;
     width: 35%;
-    float: right;
+    float:right;
 }
 .object img{
     height: 100%;
@@ -60,12 +87,29 @@ body{
 }
 
 .content{
-    background-color: rgb(14, 13, 2);
+    background-color: rgb(255, 255, 255);
     width: 87%;
     min-height: 100px;
     margin-left: auto;
     margin-right: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 12px;
 }
+.content img{
+    margin-left: auto;
+    margin-right: auto; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+}
+.contentimage2{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 8px;
+    margin-right: 8px;
+    padding-bottom: 7px;
+}
+
 
 .links{
     color: black;
@@ -146,4 +190,17 @@ body{
         height: 100px;
         margin-bottom: 20px;
     }
+    .objectcontentl{
+        font-size: 70%;
+    }
+    .objectcontentr{
+        font-size: 70%;
+    }
+    .objectcontentl p{
+        font-size: 90%;
+    }
+    .objectcontentr p{
+        font-size: 90%;
+    }
+
 }
