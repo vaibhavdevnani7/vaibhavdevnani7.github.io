@@ -29,14 +29,19 @@ body{
     
 }
 
-.object{
+.postobject{
     width: 87%;
     height: 230px;
-    background-color: cornsilk;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 40px;
+}
+.object{
+    background-color: cornsilk;
     overflow: hidden;
-    margin-bottom: 20px;
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
 }
 .objectimgl{
     height: 100%;
@@ -48,7 +53,7 @@ body{
     width: 35%;
     float: right;
 }
-img{
+.object img{
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -84,7 +89,6 @@ img{
     color: black;
     text-decoration: none;
 }
-
 #mainlinkdiv{
     margin: 0;
     padding: 0;
@@ -95,19 +99,7 @@ img{
     margin-top: 25px;
     font-weight: bold;
     font-family:Arial, Helvetica, sans-serif;
-    line-height: 30px;
-    font-size: 130%;
-}
-#mainlinkdiv2{
-    margin: 0;
-    padding: 0;
-    margin-left: 25px;
-    width:  100px;
-    text-align: left;
-    margin-bottom: 25px;
-    font-weight: bold;
-    font-family:Arial, Helvetica, sans-serif;
-    line-height: 30px;
+    line-height: 35px;
     font-size: 130%;
 }
 .mainlinkmain{
@@ -115,33 +107,43 @@ img{
 }
 
 @media screen and (max-width: 720px) {
-  .sidebar {
+    .sidebar {
     width: 100%;
-    height: 80px;
     position: static;
-  }
-  #mainlinkdiv{
+    }
+    #mainlinkdiv{
     display: none;
-    
-  }
-  #mainlinkdiv2{
-    display: none;
-    
-  }
-  .mainlinkmain{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 300px;
-}
-  .linksdiv{
-      float: left;    
-  }
 
-  .main{
-      margin: 0;
-  }
-  .object{
-      height: 100px;
-  }
+    }
+    .mainlinkmain{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;    
+    }
+    .seclinkmain{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 8px;
+        margin-right: 8px;
+        padding-bottom: 7px;
+    }
+    .linksdiv{
+        float: left;
+        margin-left: 0px;
+        text-align: center;
+        margin-bottom:0px;
+        font-size: 90%;
+    }
+
+    .main{
+        margin: 0;
+    }
+    .object{
+        height: 100px;
+    }
+    .postobject{
+        height: 100px;
+        margin-bottom: 20px;
+    }
 }
