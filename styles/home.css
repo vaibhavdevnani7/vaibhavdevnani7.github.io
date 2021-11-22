@@ -95,12 +95,13 @@ body{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 12px;
 }
-.content img{
-    margin-left: auto;
-    margin-right: auto; 
-    display: block;
-    margin-left: auto;
-    margin-right: auto;  
+.contentimage{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-left: 8px;
+    margin-right: 8px;
+    padding-bottom: 7px; 
 }
 .contentimage2{
     display: flex;
@@ -108,6 +109,7 @@ body{
     margin-left: 8px;
     margin-right: 8px;
     padding-bottom: 7px;
+    width: 50%;
 }
 
 
