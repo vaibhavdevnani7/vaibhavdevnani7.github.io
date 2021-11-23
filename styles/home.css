@@ -5,32 +5,33 @@
 
 body{
     margin: 0;
-    background-color: rgb(219, 255, 182);
+    background-color: #fffbafe7;
     max-width: 2000px;
     margin-left: auto;
     margin-right: auto;
 }
 
 
+
 .sidebar{
     margin: 0;
     padding: 0;
     width: 275px;
-    background-color: #f1f1f1;
+    background-color: #fffef2;
     position: fixed;
     height: 100%;
     
 }
 .main{
     margin: 0;
-    background-color: rgb(219, 255, 182);
+    background-color: #fffbafe7;
     margin-left: 275px;
     padding: 50px 0px;
     
 }
 
 .postobject{
-    width: 87%;
+    width: 93%;
     height: 230px;
     margin-left: auto;
     margin-right: auto;
@@ -44,7 +45,7 @@ body{
 
 }
 .object{
-    background-color: cornsilk;
+    background-color: #fffef2;
     overflow: hidden;
     margin: 0%;
     padding: 0%;
@@ -58,22 +59,25 @@ body{
     padding: 8px;    
 }
 .objectcontentl p{
-    font-size: 130%;
+    font-size: 125%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .objectcontentr{
     float: right;
     height: 100%;
     width: 60%;
-    font-size: 110%;
+    font-size: 100%;
     padding: 8px;   
 }
 .objectcontentr p{
-    font-size: 130%;
+    font-size: 125%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .objectimgl{
     height: 100%;
     width: 35%;
+    float: left;
 }
 .objectimgr{
     height: 100%;
@@ -85,10 +89,9 @@ body{
     width: 100%;
     object-fit: cover;
 }
-
 .content{
     background-color: rgb(255, 255, 255);
-    width: 87%;
+    width: 90%;
     min-height: 100px;
     margin-left: auto;
     margin-right: auto;
@@ -106,10 +109,22 @@ body{
     margin-left: auto;
     margin-right: auto; 
 }
+figure {
+    border: 1px #cccccc solid;
+    padding: 4px;
+}
+figcaption {
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+}
 .content h1{
-    margin-bottom: 8px;
+    font-size: 230%;
 }
 .content p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.3;
+    font-size: 120%;
 }
 .links{
     color: black;
@@ -150,7 +165,7 @@ body{
     display: none;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 768px) {
     .sidebar {
     width: 100%;
     position: static;
@@ -189,7 +204,7 @@ body{
     .postobject{
         height: 120px;
         margin-bottom: 20px;
-        width: 92%;
+        width: 95%;
     }
     .objectcontentl{
         font-size: 70%;
@@ -202,6 +217,9 @@ body{
     }
     .objectcontentr p{
         font-size: 90%;
+    }
+    .content{
+        width: 90%;
     }
 
 }
