@@ -246,21 +246,21 @@ figcaption {
         height: 100%;
     }
     .postobject{
-        height: 185px;
+        height: 200px;
         margin-bottom: 20px;
         width: 95%;
     }
     .objectcontentl{
-        font-size: 70%;
+        font-size: 65%;
     }
     .objectcontentr{
         font-size: 70%;
     }
     .objectcontentl p{
-        font-size: 95%;
+        font-size: 90%;
     }
     .objectcontentr p{
-        font-size: 95%;
+        font-size: 90%;
     }
     .content{
         width: 90%;
