@@ -26,7 +26,7 @@ body{
     margin: 0;
     background-color: #fffbafe7;
     margin-left: 275px;
-    padding: 50px 0px;
+    padding: 30px 0px;
     
 }
 
@@ -90,7 +90,7 @@ body{
     object-fit: cover;
 }
 .content{
-    background-color: rgb(255, 255, 255);
+    background-color: #fffef2;
     width: 90%;
     min-height: 100px;
     margin-left: auto;
@@ -164,6 +164,20 @@ figcaption {
 .mainlinkmain{
     display: none;
 }
+#revue-embed{
+    width: 55%;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    box-shadow: -3px 3px 15px -1px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    padding: 8px;
+}
+#revue-embed h1{
+    font-size: 180%;
+}
 
 @media screen and (max-width: 768px) {
     .sidebar {
@@ -221,5 +235,10 @@ figcaption {
     .content{
         width: 90%;
     }
-
+    #revue-embed{
+        width: 70%;
+    }
+    #revue-embed h1{
+        font-size: 140%;
+    }
 }
