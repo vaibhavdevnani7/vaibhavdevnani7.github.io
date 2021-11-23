@@ -56,7 +56,8 @@ body{
     height: 100%;
     width: 60%;
     font-size: 100%;
-    padding: 8px;    
+    padding: 8px; 
+    font-family: Arial, Helvetica, sans-serif;   
 }
 .objectcontentl p{
     font-size: 125%;
@@ -67,7 +68,8 @@ body{
     height: 100%;
     width: 60%;
     font-size: 100%;
-    padding: 8px;   
+    padding: 8px;  
+    font-family: Arial, Helvetica, sans-serif; 
 }
 .objectcontentr p{
     font-size: 125%;
@@ -110,8 +112,9 @@ body{
     margin-right: auto; 
 }
 figure {
-    border: 1px #cccccc solid;
+    border: 1px #a09e9e solid;
     padding: 4px;
+    
 }
 figcaption {
     font-style: italic;
@@ -120,6 +123,7 @@ figcaption {
 }
 .content h1{
     font-size: 230%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .content p{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -177,6 +181,32 @@ figcaption {
 }
 #revue-embed h1{
     font-size: 180%;
+}
+.fa {
+    padding: 5px;
+    font-size:30px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin-left: 3px;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-youtube {
+    background: #e60d0d;
+    color: white;
+}
+.fa-linkedin {
+    background: #0b548b;
+    color: white;
+}
+.fa-instagram {
+    background: #0f64a5;
+    color: white;
 }
 
 @media screen and (max-width: 768px) {
