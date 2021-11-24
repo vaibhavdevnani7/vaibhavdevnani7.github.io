@@ -224,7 +224,8 @@ figcaption {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        text-align: center;    
+        text-align: center; 
+        font-size: 82.5%;   
     }
     .seclinkmain{
         display: flex;
@@ -238,7 +239,7 @@ figcaption {
         margin-left: 0px;
         text-align: center;
         margin-bottom:0px;
-        font-size: 90%;
+        font-size: 82.5%;
     }
 
     .main{
