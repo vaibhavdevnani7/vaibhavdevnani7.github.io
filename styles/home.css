@@ -210,6 +210,10 @@ figcaption {
     background: #0f64a5;
     color: white;
 }
+.fa-github{
+    background: #000000;
+    color: white;
+}
 
 @media screen and (max-width: 768px) {
     .sidebar {
