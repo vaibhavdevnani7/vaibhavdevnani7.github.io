@@ -1,12 +1,12 @@
 # Site
-name: 'Mundana'
-description: 'Mundana is a free Jekyll theme for awesome people like you, Medium like.'
+name: "Vaibhav Devnani's Blog"
+description: 'Blog about Science & Technology'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
-baseurl: '/mundana-theme-jekyll'
-disqus: 'demowebsite'
-email: 'wowthemesnet@gmail.com'
-mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+baseurl: ''
+disqus: ''
+email: 'vaibhavdevnani7@gmail.com'
+
 
 include: ["_pages"]
 permalink: /:title/
@@ -19,21 +19,21 @@ plugins:
   - jekyll-seo-tag
   
 authors:
-    sal:
-      name:           Sal
-      site:           https://www.wowthemes.net
-      avatar:         /assets/images/avatar1.jpg
-      bio:            "Hi, I am Sal, the author of Mundana, the theme you're currently previewing. I hope you like it!"
-      email:          wowthemesnet@gmail.com
-      twitter:        https://twitter.com/wowthemesnet
+    vaibhav:
+      name:           Vaibhav Devnani
+      
+      avatar:         assets/images/pp.jfif
+      bio:            "Hey there, welcome to my website. I'm Vaibhav Devnani and I'm on my journey to learn more about engineering, technology, robotics, economics and start-ups and on this website I will be sharing everything I find interesting and worth sharing. Currently I'm an engineering freshman at BITS Pilani.\n
+Feel free to reach out to me at vaibhavdevnani7@gmail.com if you like my content or you'd like to work with me. \n
+Connect with me on my socials!"
+      
+      twitter:        https://twitter.com/vaibhavdevnani7
+      instagram:      https://www.instagram.com/vaibhavdevnani7/
+      github:         https://github.com/vaibhavdevnani7
+      linkedin:       https://www.linkedin.com/in/vaibhavdevnani7/
 
-    jane:
-      name:           Jane
-      site:           https://www.wowthemes.net
-      avatar:         /assets/images/avatar2.jpg
-      bio:            "Blogger, fashionista, love to explore new ideas and write on my morning coffee!"
-      email:          fakemail@gmail.com
-      twitter:        https://twitter.com/wowthemesnet
+
+    
  
 # Defaults
 defaults:
@@ -43,7 +43,7 @@ defaults:
       path: "_posts"
     values:
       layout: post
-      author: sal
+      author: vaibhav
       avatar: /assets/images/avatar1.jpg
       
   # all pages

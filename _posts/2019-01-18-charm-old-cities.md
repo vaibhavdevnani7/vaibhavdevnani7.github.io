@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Could we reinvent the charm of old cities"
+title:  "Why I'm writing this blog and About me"
 author: jane
 categories: [ Jekyll, tutorial ]
 image: assets/images/home.jpg
