@@ -30,7 +30,11 @@ Websites made using wordpress are php based, so everytime you visit a website, i
 A hybrid architecture is the best solution for a efficient website, the stuff that stays constant for everyone is generated server side and cached and delivered via a CDN, and the dynamic content is served in a serverless style, this makes for optimum utilisation of resources and a faster performance. A dynamic website with it's own private server runs idle most of the time with occasional traffic but if you switcht to serverless you pay per function call or database accesses, and you can save a lot of money this way. Also, this way your website is infinitely scaleable, it can handle a million users right away, while in case of a website with private server, it will crash right away, in order to scale it you'll have to switch it to bigger servers and do complex load balancing stuff and what not.
 
 A website with a hybrid architecture also makes up for the best experience for the users, i.e. the page will not reload again when you do something thanks to AJAX. For ex - on the amazon website if you apply one filter then the page will reload and if you want to apply another you will again have to scroll downwards and click again then it will reload again. A user generally wants to apply more than one filter and this experience is terribly annoying. This would have not been a problem if they had gone for a hybrid architecture, where new products are loaded with ajax or if they want to fix it in this way only just add a apply button which you press after selecting everything, I wonder why is amazon still not fixing it.
-*addvideo
+
+<video width="320" height="240" autoplay>
+  <source src="/assets/images/amazon.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
 
 In today's websites, the problem is not just in the backend architecture of them, but also the frontend architecture. Since the past few years, we have witnessed an arrival of a lot of fronted frameworks like react, angular, vue, svelte etc. Yes, these frameworks make it a lot easier to make complex websites and webapps, but make no sense when used for simple websites since they are very heavy make your website needlessly slow. Also using a lot of remote libraries for minor tasks and all also makes no sense, this combined with remote fonts and analytics tracking scripts make your website a terrible experience on slow devices and networks.
 
