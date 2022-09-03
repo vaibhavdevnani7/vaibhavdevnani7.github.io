@@ -2,7 +2,7 @@
 layout: post
 title:  "Great Guide to The World of Web Development"
 author: jane
-categories: [ Jekyll, tutorial ]
+categories: [ Tech, WebDev ]
 image: assets/images/resources/htmlcss.jpg
 redir: ""
 ---

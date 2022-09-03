@@ -2,7 +2,7 @@
 layout: post
 title:  "A visual introduction to machine learning"
 author: jane
-categories: [ Jekyll, tutorial ]
+categories: [ Machine Learning, Tech]
 image: assets/images/resources/part2-tree-shrink.gif
 redir: "http://www.r2d3.us/visual-intro-to-machine-learning-part-1/"
 ---

@@ -2,7 +2,7 @@
 layout: post
 title:  "In-Depth article about intricacies of Blockchain"
 author: vaibhav
-categories: [ Jekyll, tutorial ]
+categories: [ Blockchain, Tech]
 image: assets/images/resources/112017-Blockchain-4-V2.png
 redir: "https://medium.facilelogin.com/the-mystery-behind-block-time-63351e35603a"
 ---

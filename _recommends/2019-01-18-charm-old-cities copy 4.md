@@ -2,7 +2,7 @@
 layout: post
 title:  "Best Book to Get Started with Arduinos"
 author: jane
-categories: [ Jekyll, tutorial ]
+categories: [ Microcontrollers, Electronics ]
 image: assets/images/resources/arduinows.jpg
 redir: ""
 ---

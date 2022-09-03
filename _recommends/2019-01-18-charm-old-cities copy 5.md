@@ -2,7 +2,7 @@
 layout: post
 title:  "My absolute favourite book for Python so far!"
 author: vaibhav
-categories: [ Jekyll, tutorial ]
+categories: [ Python, Tech, Programming ]
 image: assets/images/resources/python.jpg
 redir: "https://automatetheboringstuff.com/"
 ---

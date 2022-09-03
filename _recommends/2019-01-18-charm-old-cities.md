@@ -2,7 +2,7 @@
 layout: post
 title:  "Moonwalking with Einstein: The Art and Science of Remembering Everything"
 author: jane
-categories: [ Jekyll, tutorial ]
+categories: [ Neuroscience, Memory ]
 image: assets/images/resources/mooneinstein.jpg
 redir: ""
 ---
