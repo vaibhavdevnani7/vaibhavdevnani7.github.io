@@ -1,0 +1,68 @@
+# Site
+name: "Vaibhav Devnani's Blog"
+description: 'Blog about Science & Technology'
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/favicon.ico'
+baseurl: ''
+disqus: 'vaibhavdevnani7'
+email: 'vaibhavdevnani7@gmail.com'
+
+
+include: ["_pages", "_recommends"]
+permalink: /:title/
+
+# Plugins
+plugins: 
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-seo-tag
+  
+authors:
+    vaibhav:
+      name:           Vaibhav Devnani
+      
+      avatar:         assets/images/pp.jfif
+      bio:            "Hey there, welcome to my website. I'm Vaibhav Devnani and I'm on my journey to learn more about engineering, technology, robotics, economics and start-ups and on this website I will be sharing everything I find interesting and worth sharing. Currently I'm an engineering freshman at BITS Pilani.\n
+Feel free to reach out to me at vaibhavdevnani7@gmail.com if you like my content or you'd like to work with me. \n
+Connect with me on my socials!"
+      
+      twitter:        https://twitter.com/vaibhavdevnani7
+      instagram:      https://www.instagram.com/vaibhavdevnani7/
+      github:         https://github.com/vaibhavdevnani7
+      linkedin:       https://www.linkedin.com/in/vaibhavdevnani7/
+
+
+    
+ 
+# Defaults
+defaults:
+
+  # all posts
+  - scope:
+      path: "_posts"
+    values:
+      layout: post
+      author: vaibhav
+      avatar: /assets/images/avatar1.jpg
+      
+  # all pages
+  - scope:
+      path: "_pages"
+    values:
+      layout: page
+  
+collections:
+  - recommends     
+      
+# Syntax
+markdown: kramdown
+highlighter: rouge
+
+# Paginate
+paginate: 10
+
+
+
+# Exclude metadata and development time dependencies (like Grunt plugins)
+exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]

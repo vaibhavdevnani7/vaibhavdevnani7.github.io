@@ -1,0 +1,28 @@
+---
+title: "Projects"
+layout: default
+permalink: "/favourites.html"
+---
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+        
+        
+        <h4 class="font-weight-bold spanborder text-capitalize" ><span>Favourites</span></h4>
+            
+        {% for post in site.recommends %}
+        
+            {% include main-loop-card-resources.html %}
+        
+        {% endfor %}
+        
+
+        </div>
+        
+            <div class="col-md-4">
+        {% include sidebar-featured.html %}    
+    </div>
+        
+    </div>
+</div>
