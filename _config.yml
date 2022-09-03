@@ -8,7 +8,7 @@ disqus: 'vaibhavdevnani7'
 email: 'vaibhavdevnani7@gmail.com'
 
 
-include: ["_pages", "_recommends"]
+include: ["_pages"]
 permalink: /:title/
 
 # Plugins

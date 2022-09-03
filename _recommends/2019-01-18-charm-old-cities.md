@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Why I'm writing this blog and About me"
+title:  "Moonwalking with Einstein: The Art and Science of Remembering Everything"
 author: jane
 categories: [ Jekyll, tutorial ]
-image: assets/images/home.jpg
-tags: [sticky]
-redir: "https://google.com"
+image: assets/images/resources/mooneinstein.jpg
+redir: ""
 ---
 
-Bucharest’s history alternated periods of development and decline from the early settlements in antiquity until its consolidation as the national capital of Romania late in the 19th century. First mentioned as the “Citadel of București” in 1459, it became the residence of the famous Wallachian prince Vlad III the Impaler.
-
+Fascinating book which changes your perspective towards a lot of things in life. This book is written by Joshua Foer about his journey exploring the human brain.
+I recommend watching his <a target="_blank" href="https://youtu.be/U6PoUg7jXsA" style="color: blue;">Ted Talk</a>.
+                        
