@@ -14,9 +14,9 @@ description: "Science and Tech Blog"
     
     
 <!-- Begin post excerpts, let's highlight the first 4 posts on top -->
-<div class="row remove-site-content-margin">
+<!-- <div class="row remove-site-content-margin">
     
-    <!-- latest post -->
+    <!-- latest post 
     {% assign latest_post = site.posts[0] %}
     <div class="col-md-6">
     <div class="card border-0 mb-4 box-shadow">   
@@ -48,7 +48,7 @@ description: "Science and Tech Blog"
     
     <div class="col-md-6">
         
-        <!-- second latest post -->
+        <!-- second latest post 
         {%- assign second_post = site.posts[1] -%}        
         <div class="mb-3 d-flex align-items-center">                
                 {% if second_post.image %}
@@ -75,7 +75,7 @@ description: "Science and Tech Blog"
                 </div>
             </div>
         
-        <!-- third latest post -->
+        <!-- third latest post 
         {%- assign third_post = site.posts[2] -%}        
         <div class="mb-3 d-flex align-items-center">                
                 {% if third_post.image %}
@@ -102,7 +102,7 @@ description: "Science and Tech Blog"
                 </div>
             </div>
         
-        <!-- fourth latest post -->
+        <!-- fourth latest post 
         {%- assign fourth_post = site.posts[3] -%}        
         <div class="mb-3 d-flex align-items-center">                
                 {% if fourth_post.image %}
@@ -131,12 +131,12 @@ description: "Science and Tech Blog"
         
     </div>
     
-</div>
+</div> -->
     
 <!-- Sticky - add sticky tag to the post you want to highlight here - tags: [sticky] -->
 {% for post in site.posts %} 
 {% if post.tags contains "sticky" %}
-<div class="jumbotron jumbotron-fluid jumbotron-home pt-0 pb-0 mt-3 mb-2rem bg-lightblue position-relative">
+<!-- <div class="jumbotron jumbotron-fluid jumbotron-home pt-0 pb-0 mt-3 mb-2rem bg-lightblue position-relative">
     <div class="pl-4 pr-0 h-100 tofront">
         <div class="row justify-content-between">
             <div class="col-md-6 pt-6 pb-6 pr-lg-4 align-self-center">
@@ -150,7 +150,7 @@ description: "Science and Tech Blog"
             </div>
         </div>
     </div>
-</div> 
+</div>  -->
 {% endif %}
 {% endfor %}
 
